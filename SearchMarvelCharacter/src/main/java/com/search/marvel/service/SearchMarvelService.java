@@ -1,6 +1,5 @@
 package com.search.marvel.service;
 
-import com.search.marvel.utils.ApiMarvelException;
 import org.springframework.http.ResponseEntity;
 
 /**
@@ -13,6 +12,6 @@ public interface SearchMarvelService {
     /**
     * Metodo para obtener los personajes del API
     * */
-    ResponseEntity<Object> getCharacters(Integer characterId) throws ApiMarvelException;
+    ResponseEntity<Object> getCharacters(Integer characterId);
 
 }
