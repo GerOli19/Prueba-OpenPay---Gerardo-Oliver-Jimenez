@@ -133,6 +133,12 @@ public class SearchMarvelServiceImpl implements SearchMarvelService{
         return new ResponseEntity<>(apiMarvelResponseVo, httpHeaders, HttpStatus.OK);
     }
 
+    /**
+     * Método que crea un hash para el consumo de la API.
+     * se utiliza timestamp para la peticion al api
+     * tambien se utiliza el public y private key que nos proporciona al registrarnos en la pagina.
+     * y se genera un hash que permita validar y consultar de forma correcta.
+     */
     private String getHash(Instant timeStamp) throws NoSuchAlgorithmException {
 
         StringBuilder parametros = new StringBuilder();
