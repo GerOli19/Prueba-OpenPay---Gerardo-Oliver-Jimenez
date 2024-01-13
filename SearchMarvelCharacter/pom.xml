@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>org.search.marvel</groupId>
-    <artifactId>SearchMarvelCharacter</artifactId>
+    <artifactId>consumer</artifactId>
     <version>1.0.0</version>
     <name>search-marvel-character-consumer</name>
     <description>Consumo API Marvel .Jar</description>
