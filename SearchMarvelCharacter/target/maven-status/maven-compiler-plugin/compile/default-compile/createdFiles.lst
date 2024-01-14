@@ -1,0 +1,6 @@
+com\search\marvel\service\SearchMarvelService.class
+com\search\marvel\utils\MarvelConstants.class
+com\search\marvel\service\SearchMarvelServiceImpl.class
+com\search\marvel\config\SearchMarvelConfig.class
+com\search\marvel\SearchMarvelApplication.class
+com\search\marvel\vo\ApiMarvelResponseVo.class
